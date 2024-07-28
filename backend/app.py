@@ -1,5 +1,6 @@
 # app.py
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import mlflow
 import mlflow.sklearn
 import pandas as pd
@@ -7,6 +8,7 @@ import joblib
 
 # ======================= Initialize the Flask application ===========================================
 app = Flask(__name__)
+CORS(app)
 
 # ======================= Load the trained model and scaler from MLflow ===============================
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
