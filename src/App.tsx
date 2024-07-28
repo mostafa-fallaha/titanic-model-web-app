@@ -113,13 +113,19 @@ function App() {
       </HStack>
 
       <HStack display={"flex"} justifyContent={"center"} marginTop={"5%"}>
-        <Button width={"30%"} onClick={handleSubmit}>
+        <Button width={"30%"} onClick={handleSubmit} fontSize={"1.5rem"}>
           Get Result
         </Button>
       </HStack>
 
       <HStack display={"flex"} justifyContent={"center"} marginTop={"5%"}>
-        <Text>{status && status}</Text>
+        <Text
+          fontSize={"2rem"}
+          fontWeight={500}
+          color={status === "Died" ? "red" : "green"}
+        >
+          {status && status}
+        </Text>
       </HStack>
     </Box>
   );
