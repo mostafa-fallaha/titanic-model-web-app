@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/MYCOM/Desktop/FSD/TECH/ML%20-%20Charbel/DVC/assignment/buildingModel/mlruns/0/ce494c7c68114de6b3b5c6e485423752/artifacts
+end_time: 1722166913689
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce494c7c68114de6b3b5c6e485423752
+run_name: upset-trout-93
+run_uuid: ce494c7c68114de6b3b5c6e485423752
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722166913630
+status: 3
+tags: []
+user_id: MYCOM

@@ -1,0 +1,11 @@
+digest: 1a08bd5a
+name: dataset
+profile: '{"num_rows": 394, "num_elements": 1576}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Age", "required": true},
+  {"type": "long", "name": "PClass_2nd", "required": true}, {"type": "long", "name":
+  "PClass_3rd", "required": true}, {"type": "long", "name": "Sex_male", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "MYCOM", "mlflow.source.name": "c:\\Users\\MYCOM\\Desktop\\FSD\\TECH\\ML
+  - Charbel\\DVC\\assignment\\buildingModel\\buildingModel.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code

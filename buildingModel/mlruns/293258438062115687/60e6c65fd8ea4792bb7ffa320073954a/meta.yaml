@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/MYCOM/Desktop/FSD/TECH/ML%20-%20Charbel/DVC/assignment/buildingModel/mlruns/293258438062115687/60e6c65fd8ea4792bb7ffa320073954a/artifacts
+end_time: 1722158816796
+entry_point_name: ''
+experiment_id: '293258438062115687'
+lifecycle_stage: active
+run_id: 60e6c65fd8ea4792bb7ffa320073954a
+run_name: 2024-07-28_12:26:44
+run_uuid: 60e6c65fd8ea4792bb7ffa320073954a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722158805087
+status: 3
+tags: []
+user_id: MYCOM

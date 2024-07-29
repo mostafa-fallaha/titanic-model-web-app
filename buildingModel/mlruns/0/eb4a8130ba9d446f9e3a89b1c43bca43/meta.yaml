@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/MYCOM/Desktop/FSD/TECH/ML%20-%20Charbel/DVC/assignment/buildingModel/mlruns/0/eb4a8130ba9d446f9e3a89b1c43bca43/artifacts
+end_time: 1722166547116
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb4a8130ba9d446f9e3a89b1c43bca43
+run_name: luminous-worm-772
+run_uuid: eb4a8130ba9d446f9e3a89b1c43bca43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722166547059
+status: 3
+tags: []
+user_id: MYCOM

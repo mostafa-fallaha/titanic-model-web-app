@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/MYCOM/Desktop/FSD/TECH/ML%20-%20Charbel/DVC/assignment/buildingModel/mlruns/293258438062115687/17d9f0fe71e141c78837aaa27c3dc3e2/artifacts
+end_time: 1722157193451
+entry_point_name: ''
+experiment_id: '293258438062115687'
+lifecycle_stage: active
+run_id: 17d9f0fe71e141c78837aaa27c3dc3e2
+run_name: titanic1
+run_uuid: 17d9f0fe71e141c78837aaa27c3dc3e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722157181747
+status: 3
+tags: []
+user_id: MYCOM

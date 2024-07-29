@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/MYCOM/Desktop/FSD/TECH/ML%20-%20Charbel/DVC/assignment/buildingModel/mlruns/0/c3045115e0314e8d9d65744a4dbe16f0/artifacts
+end_time: 1722166842672
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c3045115e0314e8d9d65744a4dbe16f0
+run_name: mysterious-colt-743
+run_uuid: c3045115e0314e8d9d65744a4dbe16f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722166842610
+status: 3
+tags: []
+user_id: MYCOM
