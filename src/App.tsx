@@ -67,7 +67,7 @@ function App() {
         textAlign={"center"}
         marginTop={"3%"}
       >
-        Titanic Survivers Predictions
+        Titanic Survivors Predictions
       </Text>
 
       <HStack display={"flex"} justifyContent={"space-evenly"}>
