@@ -4,7 +4,7 @@ a model that predicts if a person on the Titanic has survived or not, based on t
 
 # Building the Model
 
-in buildingModel/buildingModel.py, here is where im loading the data from the remote storage (Google Drive), and training it on this data.<br>
+in buildingModel/buildingModel.py, here is where im loading the data from the remote storage (Google Drive), and training the model on this data.<br>
 And then im registering and versioning the model with it's metrics and artifacts using ML Flow.
 
 # Backend
