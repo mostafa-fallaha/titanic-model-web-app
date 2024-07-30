@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Titanic Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+a model that predicts if a person on the Titanic has survived or not, based on the Age, Passenger Class and the Gender.
 
-Currently, two official plugins are available:
+# Building the Model
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+in buildingModel/buildingModel.py, here is where im loading the data from the remote storage (Google Drive), and training it on this data.<br>
+And then im registering and versioning the model with it's metrics and artifacts using ML Flow.
 
-## Expanding the ESLint configuration
+# Backend
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+in backend/app.py, here im loading the trained model from ML Flow.<br>
+and using _flask_ to create the API upon this model.
 
-- Configure the top-level `parserOptions` property like this:
+# Frontend
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+React + TypeScript + ChakraUI
